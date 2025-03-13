@@ -1,0 +1,97 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.7515525931525792,
+        "y": 4.5
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.27834453062271,
+        "y": 3.987928355003629
+      },
+      "isLocked": false,
+      "linkedName": "Sub_Source_Side"
+    },
+    {
+      "anchor": {
+        "x": 2.764970079703192,
+        "y": 4.124101518345216
+      },
+      "prevControl": {
+        "x": 2.1328594235185587,
+        "y": 4.1259542144451
+      },
+      "nextControl": {
+        "x": 3.0737603275236274,
+        "y": 4.1231964640130006
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 0.7515525931525792,
+        "y": 4.5
+      },
+      "prevControl": {
+        "x": 1.27834453062271,
+        "y": 4.007381664052427
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Sub_Source_Side"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.5,
+      "rotationDegrees": 0.0,
+      "rotateFast": false
+    },
+    {
+      "waypointRelativePos": 1.5,
+      "rotationDegrees": 0.0,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "New Event Marker",
+      "waypointRelativePos": 0.05,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "Intake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 4.0,
+    "maxAcceleration": 2.5,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -60.0,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "Lower Starting",
+  "previewStartingState": {
+    "rotation": -60.0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}
